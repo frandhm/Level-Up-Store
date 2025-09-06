@@ -1,36 +1,82 @@
+html, body {
+            height: 100%;
+}
+        
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+        
+main {
+    flex: 1 0 auto;
+}
+        
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+    text-align: center;
+}
+        
+.product-card {
+    margin-bottom: 1rem;
+    transition: transform 0.3s;
+}
+        
+.product-card:hover {
+    transform: translateY(-5px);
+}
+        
+.attribute-list {
+    list-style: none;
+    padding: 0;
+}
+        
+.attribute-list li {
+    padding: 0.2rem 0;
+}
+
 .navbar-brand {
-            font-weight: bold;
-        }
-        .hero-section {
-            background-color: #f8f9fa;
-            padding: 60px 0;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .product-card {
-            margin-bottom: 30px;
-            transition: transform 0.3s;
-        }
-        .product-card:hover {
-            transform: translateY(-5px);
-        }
-        .attribute-list {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-            margin-top: 10px;
-        }
-        .attribute-list li {
-            background-color: #f1f1f1;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 0.9rem;
-        }
-        .newsletter {
-            background-color: #f8f9fa;
-            padding: 40px 0;
-        }
-        footer {
-            padding: 20px 0;
-        }
+    font-weight: bold;
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-card {
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.attribute-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.attribute-list li {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.newsletter {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+footer {
+    padding: 20px 0;
+}
