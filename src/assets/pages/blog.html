@@ -4,96 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs - Level UP Gamer</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Tu CSS -->
-    <link rel="stylesheet" href="../../../src/assets/css/styleLR.css">
+    <link rel="stylesheet" href="../../../src/assets/css/style.css">
     <link rel="icon" type="image/png" href="../../../src/assets/img/icon.png">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-        <div class="container">
+    <nav class="navbar">
+        <div class="nav-container">
             <a class="navbar-brand" href="../../../src/index.html">
-
                 Level UP Gamer
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
-                    aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+            <div class="nav-links-container">
+                <ul class="nav-links">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link active fw-bold" href="#">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Blogs</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Page Title -->
-    <div class="container text-center my-5 bg-info">
-                            <h1 class="display-4 fw-bold mb-3 text-center">
-                        <img src="../img/icon.png" alt="Logo" style="height: 170px; display: block; margin: 0 auto;">
-
-                    </h1>           
-        <h1 class="display-5 fw-bold">NOTICIAS IMPORTANTES</h1>
-        
-        <p class="text-muted">Mantente al día con las novedades de Level UP Gamer</p>
+    <div class="company-name">
+        <h1 class="hero-title">
+            <img src="../img/icon.png" alt="Logo" class="hero-logo">
+        </h1>
+        <h1 class="hero-subtitle">NOTICIAS IMPORTANTES</h1>
+        <p class="hero-text">Mantente al día con las novedades de Level UP Gamer</p>
     </div>
 
-    <!-- Blog Posts -->
     <div class="container">
-        <div class="row">
-            <!-- Blog Card #1 -->
-            <div class="col-md-6 mb-4">
-                <div class="card shadow-sm border-0 h-100">
-                    <div class="card-body">
-                        <h3 class="card-title">CASO CURIOSO #1</h3>
-                        <p class="card-text text-muted">
-                            Nuestro North American Third Golden sigue destacando entre lo mejor en Estados Unidos y Canadá. 
-                            Disponible únicamente en nuestros puntos de distribución.
-                        </p>
-                        <a href="#" class="btn btn-login">Ver Caso</a>
-                    </div>
+        <div class="grid">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">CASO CURIOSO #1</h3>
+                    <p class="card-text">
+                        Nuestro North American Third Golden sigue destacando entre lo mejor en Estados Unidos y Canadá. 
+                        Disponible únicamente en nuestros puntos de distribución.
+                    </p>
+                    <a href="#" class="btn btn-login">Ver Caso</a>
                 </div>
             </div>
 
-            <!-- Blog Card #2 -->
-            <div class="col-md-6 mb-4">
-                <div class="card shadow-sm border-0 h-100">
-                    <div class="card-body">
-                        <h3 class="card-title">CASO CURIOSO #2</h3>
-                        <p class="card-text text-muted">
-                            Otro de nuestros productos estrella que mantiene los estándares más altos. 
-                            Disponible en ediciones limitadas en todas nuestras sucursales.
-                        </p>
-                        <a href="#" class="btn btn-login">Ver Caso</a>
-                    </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">CASO CURIOSO #2</h3>
+                    <p class="card-text">
+                        Otro de nuestros productos estrella que mantiene los estándares más altos. 
+                        Disponible en ediciones limitadas en todas nuestras sucursales.
+                    </p>
+                    <a href="#" class="btn btn-login">Ver Caso</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="bg-light py-4 mt-5 border-top">
-        <div class="container text-center">
+    <footer class="footer">
+        <div class="footer-container text-center">
             <p class="mb-1">&copy; 2025 Level UP Gamer. Todos los derechos reservados.</p>
-            <div>
+            <div class="social-links">
                 <a href="#" class="text-muted me-3">Instagram</a>
                 <a href="#" class="text-muted me-3">Twitter</a>
                 <a href="#" class="text-muted">Facebook</a>
             </div>
         </div>
     </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
