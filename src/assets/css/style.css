@@ -1,14 +1,19 @@
 /* Reset básico */
+
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
     color: #212529;
 }
+
 
 /* Navbar */
 .navbar {
@@ -65,11 +70,12 @@ body {
 }
 .hero-buttons {
     margin-top: 1.5rem;
+    color: rgb(0, 0, 0);
 }
 .btn {
     display: inline-block;
-    background: #0d6efd;
-    color: white;
+    background: #39FF14;
+    color: #000000;
     padding: 0.6rem 1.2rem;
     text-decoration: none;
     border-radius: 5px;
@@ -81,16 +87,16 @@ body {
 }
 .btn-outline {
     display: inline-block;
-    border: 2px solid #0d6efd;
-    color: #0d6efd;
+    border: 2px solid #39FF14;
+    color: #000000;
     padding: 0.6rem 1.2rem;
     border-radius: 5px;
     text-decoration: none;
     transition: all 0.3s;
 }
 .btn-outline:hover {
-    background: #0d6efd;
-    color: white;
+    background: #39FF14;
+    color: #000000;
 }
 
 /* Productos */
@@ -124,9 +130,9 @@ body {
 
 /* Footer */
 .footer {
-    background: #0dcaf0;
+    background: #000000;
     padding: 2rem 1rem;
-    color: #000;
+    color: #ffffff;
 }
 .footer-container {
     max-width: 1200px;
@@ -142,7 +148,7 @@ body {
 }
 .footer-left a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 .footer-right h3 {
     margin-bottom: 1rem;
@@ -250,4 +256,10 @@ body {
 }
 .login-options a:hover {
     text-decoration: underline;
+}
+
+
+
+.btn-registro{
+    color: #ffffff;
 }
