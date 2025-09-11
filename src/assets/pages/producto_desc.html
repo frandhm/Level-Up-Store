@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Producto</title>
-    <link rel="stylesheet" href="../../../src/assets/css/style.css">
-    <link rel="icon" type="image/png" href="../../../src/assets/img/icon.png">
+    <title>Detalles del Producto - Level UP Gamer</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleProducto_desc.css">
+    <link rel="icon" type="image/png" href="../img/icon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500;700&display=swap">
 </head>
-
 <body>
+    
     <nav class="navbar">
         <div class="container nav-container">
             <a class="navbar-brand" href="../../../src/index.html">Level UP Gamer</a>
             <ul class="nav-links">
-                <li><a href="../../../src/index.html" class="active">Home</a></li>
+                <li><a href="../../../src/index.html">Home</a></li>
                 <li><a href="../pages/productos.html">Productos</a></li>
                 <li><a href="../pages/nosotros.html">Nosotros</a></li>
                 <li><a href="../pages/blog.html">Blogs</a></li>
@@ -26,50 +27,42 @@
         </div>
     </nav>
 
-    <div class="hero-section">
-        <h1>
-            <img src="../img/icon.png" alt="Logo" class="company-logo">
-        </h1>
-    </div>
+    <main>
+        <!-- Ruta de navegación -->
+        <section class="container breadcrumb">
+            <p id="breadcrumb-text">Home > Productos > <span id="product-name-bread">Nombre Producto</span></p>
+        </section>
 
-    <main class="product-page-container">
-        <div class="product-detail">
-            <div class="product-images">
-                <div class="main-image">
-                    <img src="#" alt="Imagen principal del producto">
-                </div>
-                <div class="thumbnail-images">
-                    <div class="thumbnail active"></div>
-                    <div class="thumbnail"></div>
-                    <div class="thumbnail"></div>
-                </div>
+        <!-- Detalles del producto -->
+        <section class="container product-details">
+            <div class="product-image">
+                <img id="product-img" src="" alt="Producto">
             </div>
             <div class="product-info">
-                <div class="product-header-info">
-                    <h2>Nombre Producto</h2>
-                    <span class="product-price">$100</span>
-                </div>
-                <p class="product-description">
-                    descripcion xd
+                <h1 id="product-title">Nombre Producto</h1>
+                <p class="product-description" id="product-description">
+                    Descripción del producto...
                 </p>
-                <div class="quantity-selector">
-                    <span>Cantidad</span>
-                    <input type="number" value="1" min="1" class="quantity-input">
+                
+                <div class="price-section">
+                    <span class="price" id="product-price">$0.00</span>
+                    <div class="quantity">
+                        <button id="decrease">-</button>
+                        <input type="number" id="quantity" value="1" min="1">
+                        <button id="increase">+</button>
+                    </div>
                 </div>
-                <button class="btn-add">Añadir al carrito</button>
+                
+                <button class="btn-add-to-cart" id="add-to-cart">Añadir al carrito</button>
             </div>
-        </div>
-        
-        <div class="related-products-section">
-            <h3 class="related-title">Productos relacionados</h3>
-            <div class="grid related-products">
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-            </div>
-        </div>
+        </section>
+
+        <!-- Productos relacionados -->
+        <section class="container related-products">
+            <h2>Productos Relacionados</h2>
+            <div id="related-products-list" class="grid"></div>
+        </section>
+
     </main>
     
     <footer class="footer">
@@ -84,5 +77,7 @@
             </div>
         </div>
     </footer>
+    
+    <script src="../js/producto-desc.js"></script>
 </body>
 </html>
