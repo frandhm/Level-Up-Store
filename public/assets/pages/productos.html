@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a class="navbar-brand" href="../../../src/index.html">Level UP Gamer</a>
+            <ul class="nav-links">
+                <li><a href="../../../src/index.html" class="active">Home</a></li>
+                <li><a href="../pages/productos.html">Productos</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/blog.html">Blogs</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+            <a href="../pages/carrito.html" class="btn-outline">
+                🛒 Carrito (0)
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero-section">
+            <div class="container text-center">
+                <h1>
+                    <img src="../img/icon.png" alt="Logo" class="hero-logo">
+                </h1>
+                <p class="hero-text"></p>
+                <div class="hero-buttons">
+                    <a href="../pages/login.html" class="btn">Iniciar sesión</a>
+                    <a href="../pages/registro.html" class="btn-outline btn-registro">Registro usuario</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Productos -->
+        <section class="container products">
+            <div class="container">
+                <h2 class="text-center">Productos Gamer</h2>
+                <div id="productos-lista" class="grid"></div>
+            </div>
+        </section>
+
+    </main>
+    
+    
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <h5>Level UP Gamer</h5>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script src="../../../src/assets/js/producto.js"></script>
+</body>
+</html>

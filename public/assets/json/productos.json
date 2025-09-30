@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mouse Gamer",
+        "precio": 12590,
+        "imagen": "../img/warenGamer.jpg",
+        "descripcion": "Mouse Gamer que amaza platitas"
+    },    
+    {
+        "id": 2,
+        "nombre": "Teclado Gamer",
+        "precio": 21000,
+        "imagen": "../img/tecladoGamer.jpg",
+        "descripcion": "Teclado mecanico con lucesitas RGB para mas FPS y amazar manquitos"
+    },    
+    {
+        "id": 3,
+        "nombre": "Monitor Gamer",
+        "precio": 150000,
+        "imagen": "../img/monitorGamer.jpg",
+        "descripcion": "Monitor 4k 500hz para ver hasta el futuro y amazar a toda la loby"
+    },    
+    {
+        "id": 4,
+        "nombre": "MousePad Gamer",
+        "precio": 2400,
+        "imagen": "../img/MousePadGamer.jpg",
+        "descripcion": "MousePad Gamer con la foto de un perro para que estes bien acompañado mientras amazas"
+    },
+    {
+        "id": 5,
+        "nombre": "Computador Gamer",
+        "precio": 1,
+        "imagen": "../img/ComputadorGamer.jpg",
+        "descripcion": "PC gamer con todo lo necesario para jugar roblox y robar braintrots"
+    },
+    {
+        "id": 6,
+        "nombre": "Silla Gamer",
+        "precio": 103012,
+        "imagen": "../img/sillaGamer.jpg",
+        "descripcion": "Silla Gamer con baño incluido para no perder tiempo y amazar mas"
+    },
+    {
+        "id": 7,
+        "nombre": "Audifonos Gamer",
+        "precio": 1000000,
+        "imagen": "../img/audifonosGamer.jpg",
+        "descripcion": "Audifonos Gamer con sonido 3D para escuchar a los enemigos"
+    },
+    {
+        "id": 8,
+        "nombre": "Parlantes Gamer",
+        "precio": 50290,
+        "imagen": "../img/altavocesGamer.jpg",
+        "descripcion": "Parlantes pa poner musica al chancho y molestar a los vecinos"
+    }
+
+
+
+]

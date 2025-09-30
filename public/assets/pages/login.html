@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="../../../src/assets/css/style.css">
+    <link rel="icon" type="image/png" href="../../../src/assets/img/icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a class="navbar-brand" href="../../../src/index.html">Level UP Gamer</a>
+            <ul class="nav-links">
+                <li><a href="../../../src/index.html" class="active">Home</a></li>
+                <li><a href="../pages/productos.html">Productos</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/blog.html">Blogs</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+            <a href="../pages/carrito.html" class="btn-outline">
+                🛒 Carrito (0)
+            </a>
+        </div>
+    </nav>
+
+    
+    <div class="hero-section">
+        <h1>
+            <img src="../img/icon.png" alt="Logo" class="company-logo">
+        </h1>
+    </div>
+
+    
+    <div class="container login-container">
+        <div class="login-header">
+            <h2>Inicio de sesión</h2>
+            <p class="text-muted">Ingresa tus credenciales para acceder</p>
+        </div>
+        
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" placeholder="nombre@ejemplo.com">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Ingresa tu contraseña">
+            </div>
+            
+            <div class="form-check">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Recordarme</label>
+            </div>
+            
+            <button  type="submit" class="btn btn-login">Iniciar sesión</button>
+            
+            <div class="login-options">
+                <a href="../../../src/assets/pages/registro.html">Registrarse</a>
+            </div>
+        </form>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <h5>Level UP Gamer</h5>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../../src/assets/js/login.js"></script>
+</body>
+</html>
